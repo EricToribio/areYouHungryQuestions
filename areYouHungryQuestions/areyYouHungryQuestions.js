@@ -15,9 +15,11 @@ function answer(e) {
     var input = document.getElementById('getAnswer').value;
     if (questionOut.innerText == question[0]) {
         if (input == "cook") {
+
+
             output.classList.remove('hide')
             output.innerText = "Ill cook the meat and you cook the sides"
-        } else if (input == "eat out") {
+        } else if (input == "eat out" || "Eat out") {
             fastFoodOrSitDown()
         }
     } else if (questionOut.innerText == question[1]) {
@@ -28,11 +30,11 @@ function answer(e) {
             sitDown()
         }
     } else if (questionOut.innerText == question[2]) {
-        if (input == "Olive garden") {
+        if (input == "Olive garden" || "olive garden") {
             output.classList.remove('hide')
             questionContainer.classList.add('hide')
             output.innerText = "Ok get your bra on!"
-        } else if (input == "Froggers") {
+        } else if (input == "froggers" || "Froggers") {
             output.classList.remove('hide')
             questionContainer.classList.add('hide')
             output.innerText = "Ok get your bra on!"
@@ -40,11 +42,11 @@ function answer(e) {
             output.classList.remove('hide')
             questionContainer.classList.add('hide')
             output.innerText = "Ok get your bra on!"
-        } else if (input == "Ale house") {
+        } else if (input == "ale house") {
             output.classList.remove('hide')
             questionContainer.classList.add('hide')
             output.innerText = "Ok get your bra on!"
-        } else if (input == "Gators") {
+        } else if (input == "gators") {
             output.classList.remove('hide')
             questionContainer.classList.add('hide')
             output.innerText = "Ok get your bra on!"
@@ -55,20 +57,20 @@ function answer(e) {
             questionContainer.classList.add('hide')
             output.innerText = "I'll drive!"
 
-        } else if (input == "Checkers") {
+        } else if (input == "checkers") {
             output.classList.remove('hide')
             questionContainer.classList.add('hide')
             output.innerText = "I'll drive!"
 
-        } else if (input == "Wendys") {
+        } else if (input == "wendys") {
             output.classList.remove('hide')
             questionContainer.classList.add('hide')
             output.innerText = "I'll drive!"
-        } else if (input == "Popeyes") {
+        } else if (input == "popeyes") {
             output.classList.remove('hide')
             questionContainer.classList.add('hide')
             output.innerText = "I'll drive!"
-        } else if (input == "Tacobell") {
+        } else if (input == "tacobell") {
             output.classList.remove('hide')
             questionContainer.classList.add('hide')
             output.innerText = "I'll drive!"

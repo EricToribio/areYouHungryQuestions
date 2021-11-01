@@ -10,6 +10,12 @@
 h2{
     color: rgb(243, 93, 218);
 }
+.startQuestion {
+    color: black;
+}
+h2 {
+    font-size: 75px;
+}
 
 
 h1 {
@@ -25,7 +31,7 @@ h1 {
 body {
     text-align: center;
     background-color: blueviolet;
-    color:rgb(96, 255, 68);
+    
     font-size: 60px;
 }
 P {
