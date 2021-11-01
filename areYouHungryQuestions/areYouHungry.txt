@@ -1,4 +1,0 @@
-The const Keyword #
-const is block-scoped. This means that the variable declared with const cannot be redeclared or reassigned.
-getElementById(elementId: string): HTMLElement | null; the document before the dot is refering to the html file where its bringing in the element from 
-addEventListener is listening for a mouse click and calling a function
