@@ -12,7 +12,8 @@ submit.addEventListener('click', answer)
 
 function answer(e) {
 
-    var input = document.getElementById('getAnswer').value;
+    var input = document.getElementById('getAnswer').value.toLowerCase();
+    
     if (questionOut.innerText == question[0]) {
         if (input == "cook") {
             questionContainer.classList.add('hide')
